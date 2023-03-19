@@ -4,11 +4,12 @@ Um codigo que simula um jogo conhecido como Jogo da velha
 
 ## Descrição
 
-Detalhamento do projeto, incluindo funcionalidades, objetivos e propósito.
+Codigo feito com Java Script (JS) e outras tecnologias... Nesse codigo eu quis fazer com que o jogo da velha fosse algo possivel, depois de muita pesquisa consegui fazer algo proximo do objetivo. Usei funções como :.Square, button, Div, Class, JQuerry... Sem dizer da estilização do CSS, que foi fundamental para a estetica do
+jogo. Quando voçê realiza a ultima jogada ela nao é exibida na Grid (grade), isso era algo que eu desejava mudar.  
 
 ## Funcionalidades
 
-Descreva as principais funcionalidades do projeto e como elas podem ser utilizadas.
+.Square, button, Div, Class, JQuerry, CSS (Grid,column)
 
 ## Tecnologias Utilizadas
 
@@ -17,9 +18,6 @@ Descreva as principais funcionalidades do projeto e como elas podem ser utilizad
 - JavaScript
 - JQuerry
 
-## Instalação
-
-Descreva os passos necessários para instalar o projeto em uma máquina local.
 
 ## Como Usar
 
@@ -29,18 +27,16 @@ O jogo começa com um tabuleiro vazio e o jogador que joga com "X" faz a primeir
 
 ## Contribuição
 
-Explicação sobre como contribuir para o projeto, incluindo informações sobre como fazer um fork e enviar pull requests.
+Faça um fork do projeto: Acesse a página do projeto no GitHub e clique no botão "Fork" no canto superior direito da página. Isso criará uma cópia do projeto na sua conta do GitHub.
 
-## Licença
 
-Descrição da licença do projeto e suas condições de uso.
 
 ## Autor
 
-Alessandro Rocha da silva
+Alessandro Rocha da silva (SILVA1905-js)
 
 
 ## Agradecimentos
 
-Sou grato especialmente pela minha força de vontade, e tambem ao docente Pedro holuboski. Creio eu que sem isso, este projeto não sweria possivel.
+Sou grato especialmente pela minha força de vontade, e tambem ao docente Pedro holuboski. Creio eu que sem isso, este projeto não seria possivel.
 
