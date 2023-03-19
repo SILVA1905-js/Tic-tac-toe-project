@@ -9,7 +9,7 @@ jogo. Quando voçê realiza a ultima jogada ela nao é exibida na Grid (grade), 
 
 <img width="732" alt="Projeto" src="https://user-images.githubusercontent.com/125828525/226189843-02dbd933-2b5a-41e5-bb4e-6bd70c3aa73c.png">
 
-
+link Website :https://silva1905-js.github.io
 ## Funcionalidades
 
 .Square, button, Div, Class, JQuerry, CSS (Grid,column)
