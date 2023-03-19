@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jogo da Velha</title>
+    
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<style>
+    *{
+      
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:cursive
+    
+    
+}                                                                                                                                    
+    h1{ 
+        align-items:center;
+    }
+body{ 
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+    background:fixed;
+    background-color:gray;
+    color: black;
+    
+}
+main{
+        display: grid;
+flex-direction: column;
+        gap: 5px; }
+
+        .jogador{
+            color: black;
+            
+        }
+		.board {
+            display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-rows:repeat(3, 1fr); ;
+			width: 300px;
+			height: 300px;
+			margin: 0 auto;
+			border: 2px solid black;
+            background: fixed;
+            
+		}
+        .board-button{ 
+            size: 10px;
+        
+        }
+        .square {
+  font-size: 40px;
+}
+
+   
+
+ 
+        
+
+	
+
+	</style>
+</head>
+<body>
+    <p>De Alessandro</p>
+    <h1>-JOGO DA VELHA-</h1>
+    
+	<div class="board">
+        <button class="square"></button>
+        <button class="square"></button>
+        <button class="square"></button>
+        <button class="square"></button>
+        <button class="square"></button>
+        <button class="square"></button>
+        <button class="square"></button>
+        <button class="square"></button>
+        <button class="square"></button>
+            </div>
+      
+        <p class="jogador">Vez do jogador: X</p>
+        <div class="Botreset">
+        <button id="reset" class="Resetar">Resetar</button>
+    </div>
+        
+
+	</div>
+    
+	<script>
+		
+        $(document).ready(function() {
+    var jogador = "X";
+    var jogadas = 0;
+    var ultimaJogada = "";
+
+    $(".square").click(function() {
+    if ($(this).text() === "") {
+        $(this).text(jogador);
+        ultimaJogada = jogador;
+        jogadas++;
+        if (verificaGanhador()) {
+            console.log(ultimaJogada);
+            alert(ultimaJogada + " ganhou!");
+            limpaTabuleiro();
+        } else if (jogadas === 9) {
+            alert("Empate!");
+            limpaTabuleiro();
+        } else {
+            jogador = (jogador === "X") ? "O" : "X";
+            $(".jogador").text("Vez do jogador: " + jogador);
+        }
+    }
+});
+
+	function verificaGanhador() {
+    var linha1 = $(".square:eq(0)").text() + $(".square:eq(1)").text() + $(".square:eq(2)").text();
+    var linha2 = $(".square:eq(3)").text() + $(".square:eq(4)").text() + $(".square:eq(5)").text();
+    var linha3 = $(".square:eq(6)").text() + $(".square:eq(7)").text() + $(".square:eq(8)").text();
+    var coluna1 = $(".square:eq(0)").text() + $(".square:eq(3)").text() + $(".square:eq(6)").text();
+    var coluna2 = $(".square:eq(1)").text() + $(".square:eq(4)").text() + $(".square:eq(7)").text();
+    var coluna3 = $(".square:eq(2)").text() + $(".square:eq(5)").text() + $(".square:eq(8)").text();
+    var diagonal1 = $(".square:eq(0)").text() + $(".square:eq(4)").text() + $(".square:eq(8)").text();
+    var diagonal2 = $(".square:eq(2)").text() + $(".square:eq(4)").text() + $(".square:eq(6)").text();
+
+    if (linha1 === "XXX" || linha2 === "XXX" || linha3 === "XXX" || coluna1 === "XXX" || coluna2 === "XXX" || coluna3 === "XXX" || diagonal1 === "XXX" || diagonal2 === "XXX") {
+       
+        return true;
+    } else if (linha1 === "OOO" || linha2 === "OOO" || linha3 === "OOO" || coluna1 === "OOO" || coluna2 === "OOO" || coluna3 === "OOO" || diagonal1 === "OOO" || diagonal2 === "OOO") {
+       
+        return true;
+    } else {
+        return false;
+    }
+}
+
+	function limpaTabuleiro() {
+		$(".square").text("");
+		jogadas = 0;
+		jogador = "X";
+	}
+    $('#reset').click(function() {
+    limpaTabuleiro();
+    $(".jogador").text("Vez do jogador: X");
+});
+
+});
+
+</script>
