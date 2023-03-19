@@ -1,4 +1,4 @@
-# Jogo Da Velha
+# Jogo da Velha#
 
 Um codigo que simula um jogo conhecido como Jogo da velha
 
@@ -6,6 +6,9 @@ Um codigo que simula um jogo conhecido como Jogo da velha
 
 Codigo feito com Java Script (JS) e outras tecnologias... Nesse codigo eu quis fazer com que o jogo da velha fosse algo possivel, depois de muita pesquisa consegui fazer algo proximo do objetivo. Usei funções como :.Square, button, Div, Class, JQuerry... Sem dizer da estilização do CSS, que foi fundamental para a estetica do
 jogo. Quando voçê realiza a ultima jogada ela nao é exibida na Grid (grade), isso era algo que eu desejava mudar.  
+
+<img width="732" alt="Projeto" src="https://user-images.githubusercontent.com/125828525/226189843-02dbd933-2b5a-41e5-bb4e-6bd70c3aa73c.png">
+
 
 ## Funcionalidades
 
