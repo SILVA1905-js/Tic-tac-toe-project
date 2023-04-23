@@ -21,7 +21,9 @@ link Website :https://silva1905-js.github.io
 - JavaScript
 - JQuerry
 
-
+##LINKS
+Game:https://silva1905-js.github.io/Tic-tac-toe-project/Project/Jogodavelha.html 
+Readme:https://silva1905-js.github.io/Tic-tac-toe-project/
 ## Como Usar
 
 O projeto pode ser usado para divertimento proprio, ou entre amigos... o jogo funçiona da seguinte forma: é um jogo simples e clássico jogado em um tabuleiro de 3x3, geralmente entre dois jogadores. Cada jogador marca sua jogada com um "X" ou um "O" em uma das nove células do tabuleiro, com o objetivo de formar uma linha horizontal, vertical ou diagonal de três símbolos iguais antes do oponente.
