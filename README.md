@@ -1,47 +1,48 @@
-# Jogo da Velha#
+# Tic Tac Toe (#)
 
-Um codigo que simula um jogo conhecido como Jogo da velha
+A code that simulates a game known as Tic Tac Toe.
 
-## Descrição
+## Description
 
-Codigo feito com Java Script (JS) e outras tecnologias... Nesse codigo eu quis fazer com que o jogo da velha fosse algo possivel, depois de muita pesquisa consegui fazer algo proximo do objetivo. Usei funções como :.Square, button, Div, Class, JQuerry... Sem dizer da estilização do CSS, que foi fundamental para a estetica do
-jogo. Quando voçê realiza a ultima jogada ela nao é exibida na Grid (grade), isso era algo que eu desejava mudar.  
+This is a code made with JavaScript (JS) and other technologies... In this code, I wanted to create a playable version of the tic-tac-toe game, and after a lot of research, I was able to create something close to my objective. I used functions such as: Square, Button, Div, Class, jQuery... Not to mention the CSS styling, which was essential for the game's aesthetics. Currently, when the last move is made, it is not displayed on the grid, which is something that I wish to change.
 
 <img width="732" alt="Projeto" src="https://user-images.githubusercontent.com/125828525/226189843-02dbd933-2b5a-41e5-bb4e-6bd70c3aa73c.png">
 
 link Website :https://silva1905-js.github.io
-## Funcionalidades
+## Features
 
 .Square, button, Div, Class, JQuerry, CSS (Grid,column)
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - HTML5
 - CSS
 - JavaScript
 - JQuerry
 
-##LINKS
+## LINKS
 Game:https://silva1905-js.github.io/Tic-tac-toe-project/Project/Jogodavelha.html 
+
 Readme:https://silva1905-js.github.io/Tic-tac-toe-project/
-## Como Usar
 
-O projeto pode ser usado para divertimento proprio, ou entre amigos... o jogo funçiona da seguinte forma: é um jogo simples e clássico jogado em um tabuleiro de 3x3, geralmente entre dois jogadores. Cada jogador marca sua jogada com um "X" ou um "O" em uma das nove células do tabuleiro, com o objetivo de formar uma linha horizontal, vertical ou diagonal de três símbolos iguais antes do oponente.
+## How to use
 
-O jogo começa com um tabuleiro vazio e o jogador que joga com "X" faz a primeira jogada. Em seguida, os jogadores alternam as jogadas até que um jogador ganhe ou todas as células estejam preenchidas, resultando em um empate. Um jogador vence quando consegue formar uma linha com seus símbolos antes do oponente.
+The project can be used for personal fun or between friends... the game works as follows: it's a simple and classic game played on a 3x3 board, usually between two players. Each player marks their move with an "X" or an "O" in one of the nine cells of the board, with the objective of forming a horizontal, vertical, or diagonal line of three identical symbols before the opponent.
 
-## Contribuição
+The game starts with an empty board and the player who plays with "X" makes the first move. Then, the players alternate moves until one player wins or all cells are filled, resulting in a tie. A player wins when they manage to form a line with their symbols before the opponent.
 
-Faça um fork do projeto: Acesse a página do projeto no GitHub e clique no botão "Fork" no canto superior direito da página. Isso criará uma cópia do projeto na sua conta do GitHub.
+## Contribution
+
+Fork the project: Access the project page on GitHub and click on the "Fork" button in the upper right corner of the page. This will create a copy of the project in your GitHub account.
 
 
 
-## Autor
+## Author
 
 Alessandro Rocha da silva (SILVA1905-js)
 
 
-## Agradecimentos
+## Acknowledgements/Thanks
 
-Sou grato especialmente pela minha força de vontade, e tambem ao docente Pedro holuboski. Creio eu que sem isso, este projeto não seria possivel.
+I am grateful especially for my willpower, and also to the teacher Pedro Holuboski. I believe that without this, this project would not be possible.
 
